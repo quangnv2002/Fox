@@ -18,7 +18,7 @@ All the final codes are stored in:
 - [HangDo](https://github.com/quangnv2002/Fox/blob/master/HangDo.py)
 
 
-The [Khách_hàng_data.csv](https://github.com/quangnv2002/Fox/blob/master/input/Kh%C3%A1ch-h%C3%A0ng_data.csv) in input file stored the data of the customers. 
+The [Khách_hàng_data.csv](https://github.com/quangnv2002/Fox/blob/master/input/Kh%C3%A1ch-h%C3%A0ng_data.csv) in Input File stored the data of the customers. 
 
 For demonstration, 
 - Clone this repository 
