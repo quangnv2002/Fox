@@ -1,0 +1,13 @@
+Bật terminal lên nhé :
+
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install plotly
+pip install sklearn
+pip install ipython
+pip install --upgrade nbformat
+
+Kể ra thì gan em cũng to đó =)))
+Nhờ cả một người không quen
