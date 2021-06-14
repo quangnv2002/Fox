@@ -15,27 +15,21 @@ pip install numpy pandas matplotlib seaborn plotly sklearn ipython --upgrade nbf
 
 ## [Usage](#usage)
 All the final codes are stored in:
-- [addData](https://github.com/quangnv2002/faceRecognizeProject/blob/master/addData.py)
-- [training](https://github.com/quangnv2002/faceRecognizeProject/blob/master/training.py)
-- [recognizer](https://github.com/quangnv2002/faceRecognizeProject/blob/master/recognizer.py)
-- [Record](https://github.com/quangnv2002/faceRecognizeProject/blob/master/Record.csv)
+- [HangDo](https://github.com/quangnv2002/Fox/blob/master/HangDo.py)
 
-The [Record.csv](https://github.com/quangnv2002/faceRecognizeProject/blob/master/Record.csv) is our final results. 
+
+The [Khách_hàng_data.csv](https://github.com/quangnv2002/Fox/blob/master/input/Kh%C3%A1ch-h%C3%A0ng_data.csv) in input file stored the data of the customers. 
 
 For demonstration, 
 - Clone this repository 
 - Install all the [requirements](#requirement)
-- Execute [addData.py](https://github.com/quangnv2002/faceRecognizeProject/blob/master/addData.py)
-- Execute [recognizer.py](https://github.com/quangnv2002/faceRecognizeProject/blob/master/recognizer.py)
-- Finally, open [Record.csv](https://github.com/quangnv2002/faceRecognizeProject/blob/master/Record.csv) to see the results 
+- Execute [HangDo.py](https://github.com/quangnv2002/Fox/blob/master/HangDo.py)
+
 
 
 
 ## [Authors](#author)
 - Quang Nguyen Van 
 [Contact: [GitHub](https://github.com/quangnv2002) [Facebook](https://www.facebook.com/trucduong.congtu)]
-- Phan Nguyen Dinh
-[Contact: [GitHub](https://github.com/ndinhphan?fbclid=IwAR19y-lOSYXViVmwTrVpV-UzLbcghhIojwB9OSV4CYrHi6pIC5y5RiaNVYk) [Facebook](https://www.facebook.com/keyine10)]
-- Quan Le Anh
-[Contact: [GitHub](https://github.com/quan2305) [Facebook](https://www.facebook.com/profile.php?id=100005394814258)]
+
 
