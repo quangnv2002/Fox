@@ -2,7 +2,7 @@
 # [Fox Project](#project)
 
 ## [Introduction](#introduction)
-Từ 1 cô gái bí ẩn
+Cái gì đó về machine learning và một đám đồ thị
 ## [Requirement](#requirement)
 
 ##### Install Python 3.8
