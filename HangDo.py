@@ -26,12 +26,14 @@ import warnings
 warnings.filterwarnings('ignore')
 plt.rcParams['figure.figsize'] = (18,8)
 
-plt.subplot(1,2,1)
-sns.set(style = 'whitegrid')
-sns.distplot(data['Annual Income (k$)'])
-plt.title('Distribution of Annual Income',fontsize = 20)
-plt.xlabel('Range of Annual Income')
-plt.ylabel('Count')
+plt.subplot(1,2,1)      // chia cửa sổ hiện tại thành một ma trận m x n khoảng để vẽ đồ thị, và chọn p là cửa sổ hoạt động. 
+                        // Các đồ thị thành phần được đánh số từ trái qua phải, từ trên xuống dưới, sau đó đến hàng thứ hai
+
+sns.set(style = 'whitegrid')        // SET STYLE CHO SEABORN
+sns.distplot(data['Annual Income (k$)'])    // CHỌN CỘT ĐỂ VẼ ?
+plt.title('Distribution of Annual Income',fontsize = 20)    // XÉT TIÊU ĐỀ CHO BẢNG
+plt.xlabel('Range of Annual Income')    // XÉT TIÊU ĐỀ CHO CỘT Ox
+plt.ylabel('Count')                     // XÉT TIÊU ĐỀ CHO CỘT Oy
 
 plt.subplot(1,2,2)
 sns.set(style = 'whitegrid')
