@@ -43,17 +43,18 @@ plt.xlabel('Range of Age')
 plt.ylabel('Count')
 plt.show()
 
-labels = ['Female','Male']
-size = data['Gender'].value_counts()
-colors = ['lightgreen','orange']
-explode = [0,0.1]
-
+// TRƯỚC KHI VẼ BIỂU ĐỒ TRÒN CHO GENDER, TA ĐỊNH NGHĨA MỘT SỐ THUỘC TÍNH TRƯỚC
+labels = ['Female','Male']    // SET TIÊU ĐỀ CHO 2 PHẦN CỦA BIỂU ĐỒ TRÒN
+size = data['Gender'].value_counts()  // LẤY DATA TRONG CỘT GENDER
+colors = ['lightgreen','orange']      // SET MÀU
+explode = [0,0.1]     // CÁI NÀY CÓ THỂ HIỂU LÀ TÁCH 2 PHẦN CỦA CÁI BIỂU ĐỒ TRÒN RA ( TẠO LÁT CẮT GIỮA 2 PHẦN )
+// PHẦN VẼ BIỂU ĐỒ TRÒN CHO CỘT GIỚI TÍNH
 plt.rcParams['figure.figsize'] = (9,9)
-plt.pie(size, colors = colors, explode = explode, labels = labels, shadow= True, autopct='%.2f%%')
-plt.title('Gender',fontsize = 20)
+plt.pie(size, colors = colors, explode = explode, labels = labels, shadow= True, autopct='%.2f%%')    // CÁC THÔNG SỐ CẦN THIẾT ĐÃ ĐƯỢC ĐỊNH NGHĨA Ở TRÊN 
+plt.title('Gender',fontsize = 20)   // ĐẶT TÊN CHO BIỂU ĐỒ
 plt.axis('off')
-plt.legend()
-plt.show()
+plt.legend()  // THÊM PHẦN GHI CHÚ CHO BIỂU ĐỒ
+plt.show()    // SHOW RA BIỂU ĐỒ
 
 x = data.iloc[:, [3,4]].values
 
