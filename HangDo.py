@@ -16,10 +16,10 @@ init_notebook_mode( connected = True )
 import plotly.figure_factory as ff
 
 import os
-print(os.listdir('input'))
+print(os.listdir('input'))      // LIỆT KÊ DANH SÁCH CÁC FILE TRONG THƯ MỤC "input"
 
-data = pd.read_csv('input/Khách-hàng_data.csv')
-dat = ff.create_table(data.head())
+data = pd.read_csv('input/Khách-hàng_data.csv')     // ĐỌC FILE CSV "khách_hàng_data.csv"
+dat = ff.create_table(data.head())                  // TẠO BẢNG 
 py.iplot(dat)
 
 import warnings
